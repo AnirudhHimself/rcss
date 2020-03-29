@@ -1,0 +1,46 @@
+---
+title: "A memorable title"
+subtitle: "An unforgetable analysis"
+author: "Bob the builder"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: false
+    theme: flatly
+    css: styles.css
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(rmarkdown)
+library(ggplot2)
+library(janitor)
+library(broom)
+knitr::opts_chunk$set(echo=TRUE, 
+                      message=FALSE,
+                      cache=FALSE)
+```
+
+# Introduction.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis purus a elit ultrices laoreet. Donec gravida, ante a laoreet blandit, enim ipsum ullamcorper sem, id sodales neque lacus accumsan ipsum. Nam condimentum orci ac euismod sollicitudin. Curabitur a lacus vitae dui semper ornare. Phasellus tempor purus nisi, in luctus nisl malesuada in. Duis sed purus consequat, porta ante at, tristique arcu. Aenean enim metus, vehicula et pulvinar ut, efficitur sed sapien. Aenean sodales purus nulla, ut facilisis elit elementum vel. Mauris maximus semper pretium. Quisque pulvinar pharetra elementum.
+
+Ut molestie, sem in feugiat luctus, nibh risus laoreet tortor, nec malesuada neque odio vel felis. Praesent eu posuere nibh. Etiam hendrerit, felis quis rhoncus gravida, arcu nisi consequat purus, ac placerat justo risus et dolor. Sed tincidunt arcu a laoreet ultricies. Integer interdum quam condimentum elit ullamcorper cursus. Nulla pharetra dui ut ultrices tincidunt. Mauris rhoncus maximus ex ut hendrerit.
+
+# Major Point 1.
+Cras at placerat mi. Etiam orci metus, consequat sit amet porta ut, molestie ut augue. Quisque in bibendum ligula. Cras sodales tincidunt mattis. Praesent iaculis justo ut velit pellentesque faucibus. Vivamus luctus elit id tortor facilisis tincidunt. Duis at tortor pellentesque, imperdiet velit vel, lobortis dolor. Nam nisl nisi, pellentesque ut rutrum ut, porta eu mi. Duis augue justo, hendrerit condimentum tempor sed, blandit eu tellus. Quisque gravida turpis vel luctus molestie.
+
+## Subpoint 1
+Fusce nec sem ante. Praesent sollicitudin condimentum felis ac eleifend. Mauris eu dui leo. Ut lobortis ultricies erat, sit amet tincidunt tellus vehicula id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent feugiat turpis sit amet porta efficitur. Integer venenatis eleifend ligula in sagittis. Ut consectetur malesuada velit, nec faucibus ex malesuada vitae. Nullam dapibus malesuada quam, a vehicula eros laoreet nec. Praesent eu placerat diam. Vivamus placerat commodo est, quis rutrum sem sollicitudin in. Cras fringilla porttitor mollis. Suspendisse euismod laoreet sapien, lacinia mollis nulla fermentum id.
+
+## Subpoint 2
+Donec mattis scelerisque efficitur. Aenean non mattis nunc. Quisque venenatis varius finibus. Fusce vitae condimentum arcu. Morbi enim libero, interdum et urna ut, tempor mattis turpis. In fringilla at libero venenatis dignissim.
+
+# Major Point 2. {.tabset}
+Pellentesque mauris orci, convallis eget eros a, pharetra bibendum erat. Suspendisse vehicula, mi ut vulputate facilisis, dolor sapien faucibus metus, eget mattis dui arcu non ligula. Donec mattis scelerisque efficitur. Aenean non mattis nunc. Quisque venenatis varius finibus. Fusce vitae condimentum arcu. Morbi enim libero, interdum et urna ut, tempor mattis turpis. In fringilla at libero venenatis dignissim.
+
+## Subpoint 1
+Ut molestie, sem in feugiat luctus, nibh risus laoreet tortor, nec malesuada neque odio vel felis. Praesent eu posuere nibh. Etiam hendrerit, felis quis rhoncus gravida, arcu nisi consequat purus, ac placerat justo risus et dolor. Sed tincidunt arcu a laoreet ultricies. Integer interdum quam condimentum elit ullamcorper cursus. Nulla pharetra dui ut ultrices tincidunt. Mauris rhoncus maximus ex ut hendrerit
+
+## Subpoint 2
+Praesent sollicitudin condimentum felis ac eleifend. Mauris eu dui leo. Ut lobortis ultricies erat, sit amet tincidunt tellus vehicula id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
