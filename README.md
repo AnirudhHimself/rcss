@@ -2,7 +2,9 @@
 The CSS I use for my Rmd Notebooks
 
 
+Here's what it looks like:
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ## Usage:
 Have the below YAML at the top of your html_document.
