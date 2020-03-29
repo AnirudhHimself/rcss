@@ -2,6 +2,8 @@
 The CSS I use for my Rmd Notebooks
 
 
+
+
 ## Usage:
 Have the below YAML at the top of your html_document.
 
@@ -22,3 +24,6 @@ output:
 ```
 
 Place the style.css folder in the same folder as the Rmd. Then, press knit.
+
+If you're starting from a fresh rmarkdown file, you can just clone the R folder from this repo and clear out the Lorem Ipsum text.
+
