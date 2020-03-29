@@ -1,5 +1,5 @@
 # rcss
-The CSS I use for my Rmd Notebooks
+You can customise the appearance of the html document that your r markdown file produces by adding CSS to match your tastes and needs. This repo contains the CSS I created to use for my Rmd Notebooks. It also contains the starter file with the YAML I typically include.
 
 
 Here's what it looks like:
