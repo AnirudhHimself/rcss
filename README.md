@@ -1,6 +1,8 @@
 # rcss
 It's possible to customise the appearance of the rmarkdown html document by adding CSS to match your tastes and needs. This repo contains the CSS I created to use for my Rmd Notebooks. It also contains the starter file with the YAML I typically include.
 
+I don't maintain this template here anymore. It's obviously more convenient to keep something like this in a personal R package. So, that's what I've done [here](https://github.com/AnirudhHimself/ragtag).
+
 Here's what it looks like:
 
 ![Example Picture of Template](https://github.com/AnirudhHimself/rcss/blob/master/img/DemoImage.PNG)
